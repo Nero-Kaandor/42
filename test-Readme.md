@@ -59,7 +59,7 @@ make re
 > ### 2.a. Usage
 To use the libft functions in your project, include the libft.h header file in your source code and link against the libft.a library during compilation.
 
-<Example:>
+<ins>Example:</ins>
 ```c
 #include "libft.h"
 
