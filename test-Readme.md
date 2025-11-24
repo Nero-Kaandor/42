@@ -118,3 +118,4 @@ This project builds on concepts from C programming, especially around pointers, 
 - <ins>The information from the terminal man pages</ins>
 - <ins>[Doc Ubuntu](https://doc.ubuntu-fr.org)</ins>
 - <ins>[Docs GitHub](https://docs.github.com/fr)</ins>
+- <ins>[KooR.fr](https://koor.fr/)</ins>
