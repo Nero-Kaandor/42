@@ -26,7 +26,7 @@ To compile the library, you can use the provided `Makefile` to generate the stat
 
 1. Clone this repository to your local machine using:
 ```bash
-git clone https://github.com/yourusername/libft.git
+git clone git@github.com:42learners/Common-Core---Libft-2eef2903-84ef-40c8-990e-4a6c5d4b392d.git
 ```
 
 2. Navigate to the libft directory and compile the library:
