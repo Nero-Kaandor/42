@@ -100,7 +100,7 @@ In the Makefile, .PHONY is used to indicate that certain targets are not associa
 `make re`: Rebuilds the library from scratch
 
 
-##Resources
+## Resources
 This project builds on concepts from C programming, especially around pointers, memory management, and data structures. Here are some useful resources to further understand the topics covered in this project:
 
 . <ins>C Programming Language: Mastering Procedural Programming (with Practical Exercises) (3rd edition) - Book by Frederic Drouillon</ins>
