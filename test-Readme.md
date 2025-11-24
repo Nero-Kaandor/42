@@ -4,7 +4,7 @@
 
 
 
-## Description
+## 1. Description
 
 Libft is a personal implementation of various standard C library functions. The project is designed to provide a custom, reusable library containing essential functions that are typically used in C programming. These include string manipulation functions, memory management, character handling, and a linked list data structure. The goal of this project is to develop a deeper understanding of how fundamental C functions work and to practice the correct use of pointers and memory management.
 
@@ -20,7 +20,7 @@ Libft serves as the foundation for other 42 projects and is commonly used in pro
 
 
 
-## Instructions
+## 2. Instructions
 
 To compile the library, you can use the provided `Makefile` to generate the static library `libft.a`. Follow these steps:
 
@@ -56,7 +56,7 @@ make re
 ```
 
 
-### Usage
+### a. Usage
 To use the libft functions in your project, include the libft.h header file in your source code and link against the libft.a library during compilation.
 
 <Example:>
@@ -73,7 +73,7 @@ int main() {
 ```
 
 
-### Makefile Overview
+### b. Makefile Overview
 
 **CC**: Compiler (`gcc`)
 
@@ -111,7 +111,7 @@ Common `make` commands:
 
 
 
-## Resources
+## 3. Resources
 This project builds on concepts from C programming, especially around pointers, memory management, and data structures. Here are some useful resources to further understand the topics covered in this project:
 
 - <ins>C Programming Language: Mastering Procedural Programming (with Practical Exercises) (3rd edition) - Book by Frederic Drouillon</ins>
