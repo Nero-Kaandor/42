@@ -56,7 +56,7 @@ make re
 ```
 
 
-### a. Usage
+### 2.a. Usage
 To use the libft functions in your project, include the libft.h header file in your source code and link against the libft.a library during compilation.
 
 <Example:>
@@ -73,7 +73,7 @@ int main() {
 ```
 
 
-### b. Makefile Overview
+### 2.b. Makefile Overview
 
 **CC**: Compiler (`gcc`)
 
@@ -115,6 +115,6 @@ Common `make` commands:
 This project builds on concepts from C programming, especially around pointers, memory management, and data structures. Here are some useful resources to further understand the topics covered in this project:
 
 - <ins>C Programming Language: Mastering Procedural Programming (with Practical Exercises) (3rd edition) - Book by Frederic Drouillon</ins>
-- <ins>C Standard Library Documentation</ins>
+- <ins>The information from the terminal man pages</ins>
 - <ins>[Doc Ubuntu](https://doc.ubuntu-fr.org)</ins>
 - <ins>[Docs GitHub](https://docs.github.com/fr)</ins>
