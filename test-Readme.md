@@ -94,17 +94,17 @@ Common `make` commands:
 
 
 - `.PHONY` targets:
-In the Makefile, .PHONY is used to indicate that certain targets are not associated with actual files. This prevents conflicts in case files with the same name as the targets exist in the directory. The .PHONY targets in this project are:
-```Makefile
-.PHONY: all clean fclean re
-```
-`make all`: Builds the library
+    In the Makefile, .PHONY is used to indicate that certain targets are not associated with actual files. This prevents conflicts in case files with the     same name as the targets exist in the directory. The .PHONY targets in this project are:
+    ```Makefile
+    .PHONY: all clean fclean re
+    ```
+    `make all`: Builds the library
 
-`make clean`: Removes object files
+    `make clean`: Removes object files
 
-`make fclean`: Removes object files and the library
+    `make fclean`: Removes object files and the library
 
-`make re`: Rebuilds the library from scratch
+    `make re`: Rebuilds the library from scratch
 
 
 ## Resources
