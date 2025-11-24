@@ -116,7 +116,7 @@ Common `make` commands:
 ## 3. Resources
 This project builds on concepts from C programming, especially around pointers, memory management, and data structures. Here are some useful resources to further understand the topics covered in this project:
 
-- <ins>C Programming Language: Mastering Procedural Programming (with Practical Exercises) (3rd edition) - Book by Frederic Drouillon</ins>
+- <ins>*C Programming Language: Mastering Procedural Programming (with Practical Exercises) (3rd edition)* - Book by Frederic Drouillon</ins>
 - <ins>The information from the terminal man pages</ins>
 - <ins>[Doc Ubuntu](https://doc.ubuntu-fr.org)</ins>
 - <ins>[Docs GitHub](https://docs.github.com/fr)</ins>
