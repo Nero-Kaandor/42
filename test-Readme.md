@@ -73,7 +73,7 @@ int main() {
 ```
 
 
-### 2.b. Makefile Overview
+> ### 2.b. Makefile Overview
 
 
 **CC**: Compiler (`gcc`)
