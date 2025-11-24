@@ -126,5 +126,5 @@ This project builds on concepts from C programming, especially around pointers, 
 
 ### Testing and Memory Leak Check
 
-- LibftTester *by Tripouille* : Tester for the libft project of 42 school (with personalized leaks checking on mac, using valgrind on linux).
+LibftTester *by Tripouille* : Tester for the libft project of 42 school (with personalized leaks checking on mac, using valgrind on linux).
 [LibftTester](https://github.com/Tripouille/libftTester)
