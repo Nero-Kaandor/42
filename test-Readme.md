@@ -1,7 +1,6 @@
-#Libft
-
 *This project has been created as part of the 42 curriculum by catsin-k.*
 
+# Libft
 
 ## Description
 
@@ -9,11 +8,11 @@ Libft is a personal implementation of various standard C library functions. The 
 
 Functions are categorized as follows:
 
-***Character functions** for character checks and transformations.
-***String functions** for string manipulation and comparisons.
-***Memory functions** for efficient memory handling.
-***Additional functions** like substring extraction, string concatenation, and number-to-string conversion.
-***Linked list functions** for implementing basic linked list operations, such as adding, removing, and traversing nodes.
+. **Character functions** for character checks and transformations.
+. **String functions** for string manipulation and comparisons.
+. **Memory functions** for efficient memory handling.
+. **Additional functions** like substring extraction, string concatenation, and number-to-string conversion.
+. **Linked list functions** for implementing basic linked list operations, such as adding, removing, and traversing nodes.
 
 Libft serves as the foundation for other 42 projects and is commonly used in projects requiring fundamental operations like string handling and memory management.
 
@@ -104,7 +103,7 @@ In the Makefile, .PHONY is used to indicate that certain targets are not associa
 ##Resources
 This project builds on concepts from C programming, especially around pointers, memory management, and data structures. Here are some useful resources to further understand the topics covered in this project:
 
-*<C Programming Language: Mastering Procedural Programming (with Practical Exercises) (3rd edition) - Book by Frederic Drouillon>
-*<C Standard Library Documentation>
-*<https://doc.ubuntu-fr.org>
-*<https://docs.github.com/fr>
+. <ins>C Programming Language: Mastering Procedural Programming (with Practical Exercises) (3rd edition) - Book by Frederic Drouillon</ins>
+. <ins>C Standard Library Documentation</ins>
+. <ins>[Doc Ubuntu](https://doc.ubuntu-fr.org)</ins>
+. <ins>[Docs GitHub](https://docs.github.com/fr)</ins>
