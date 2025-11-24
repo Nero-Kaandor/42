@@ -8,7 +8,7 @@ Libft is a personal implementation of various standard C library functions. The 
 
 Functions are categorized as follows:
 
-(*) **Character functions** for character checks and transformations.
+(-) **Character functions** for character checks and transformations.
 (-) **String functions** for string manipulation and comparisons.
 (-) **Memory functions** for efficient memory handling.
 (-) **Additional functions** like substring extraction, string concatenation, and number-to-string conversion.
