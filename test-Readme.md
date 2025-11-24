@@ -75,6 +75,7 @@ int main() {
 
 ### 2.b. Makefile Overview
 
+
 **CC**: Compiler (`gcc`)
 
 **CFLAGS**: Compiler flags (`-Wall -Wextra -Werror`)
@@ -84,6 +85,7 @@ int main() {
 **SRC**: List of source files
 
 **OBJ**: Object files corresponding to the source files
+
 
 Common `make` commands:
 
