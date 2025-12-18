@@ -5,14 +5,14 @@
 
 ## :mag_right: Description
 
-The Get Next Line project implements a function that reads one line at a time from a file dynamically using a file descriptor (fd). The function manages memory efficiently and allows lines to be retrieved from a file in multiple calls, which is ideal for large files.
+The Get Next Line project implements a function that reads one line at a time from a file dynamically using a file descriptor `fd`. The function manages memory efficiently and allows lines to be retrieved from a file in multiple calls, which is ideal for large files.
 
 > ### Code operation
 
 |  `get_next_line(int fd)`  |
 :---
-|  **<ins>Purpose</ins>**: Read and return a line from a file pointed to by the file descriptor fd.
-|  **<ins>Return</ins>**: Returns a line read, or NULL if an error occurs or if the end of the file is reached
+|  **<ins>Purpose</ins>**: Read and return a line from a file pointed to by the file descriptor `fd`.
+|  **<ins>Return</ins>**: Returns a line read, or `NULL` if an error occurs or if the end of the file is reached
 
 
 |  `fill_buffer_line(int fd, char *left, char *buffer)`  |
@@ -23,8 +23,8 @@ The Get Next Line project implements a function that reads one line at a time fr
 
 |   `define_line(char *line_buffer)`   |
 :---
-|**<ins>Purpose</ins>**: Process the read string to separate the line before the newline character (\n) and the remaining part for the next read.|
-|**<ins>Return</ins>**: Returns the string remaining after the read line or NULL if the line does not contain \n.|
+|**<ins>Purpose</ins>**: Process the read string to separate the line before the newline character `\n` and the remaining part for the next read.|
+|**<ins>Return</ins>**: Returns the string remaining after the read line or `NULL` if the line does not contain `\n`.|
 
 ## :eyeglasses: Instructions
 
