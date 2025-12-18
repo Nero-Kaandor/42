@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by catsin-k*
+This project has been created as part of the 42 curriculum by catsin-k*
 
 # :open_book: Get Next Line
 
@@ -7,12 +7,13 @@
 
 The Get Next Line project implements a function that reads one line at a time from a file dynamically using a file descriptor `fd`. The function manages memory efficiently and allows lines to be retrieved from a file in multiple calls, which is ideal for large files.
 
-> ### Code operation
+> ### a. Main functions
+
 
 |  `get_next_line(int fd)`  |
 :---
 |  **<ins>Purpose</ins>**: Read and return a line from a file pointed to by the file descriptor `fd`.
-|  **<ins>Return</ins>**: Returns a line read, or `NULL` if an error occurs or if the end of the file is reached
+|  **<ins>Return</ins>**: Returns a line read, or `NULL` if an error occurs or if the end of the file is reached.
 
 
 |  `fill_buffer_line(int fd, char *left, char *buffer)`  |
@@ -25,6 +26,17 @@ The Get Next Line project implements a function that reads one line at a time fr
 :---
 |**<ins>Purpose</ins>**: Process the read string to separate the line before the newline character `\n` and the remaining part for the next read.|
 |**<ins>Return</ins>**: Returns the string remaining after the read line or `NULL` if the line does not contain `\n`.|
+
+>### b. Helper functions
+
+The following helper functions in `get_next_line_utils.c` are called to shortenthe length of the main functions :
+- `ft_strlen`
+- `ft_strdup`
+- `ft_strjoin`
+- `ft_substr`
+- `fill_str`
+
+**<ins>NB</ins>** : `ft_strchr` is in `get_next_line.c` cause we can only write a maximum of 5 functions per file.
 
 ## :eyeglasses: Instructions
 
@@ -56,7 +68,7 @@ an hour's sleep in order to hear what he had to say.
 
 > ### :wrench: Create a main.c and compile
 
-Insert the path of your **.txt** file in the `main.c` as below :
+Create a `main.c` file, then insert the /path of your **.txt** file in the `main.c` you created as below :
 
 ```
 #include "get_next_line.h"
@@ -66,7 +78,7 @@ int	main(void)
 	int		fd;
 	char	*line;
 
-	fd = open("path_of_your_file.txt", O_RDONLY);
+	fd = open("/path_of_your_file.txt", O_RDONLY);
 	if (fd == -1)
 	{
 		write(2, "Error opening file\n", 19);
@@ -86,8 +98,10 @@ Compile with:
 ```
 get_next_line.c get_next_line_utils.c main.c -Wextra -Werror -D BUFFER_SIZE=42
 ```
+The value of `BUFFER_SIZE` can be modified.
 
 ## :books: Resources
+
 Here are some useful resources to further understand the topics covered in this project:
 
 - <ins>C Programming Language: Mastering Procedural Programming (with Practical Exercises) (3rd edition) - Book by *Frederic Drouillon*</ins>
@@ -98,6 +112,8 @@ Here are some useful resources to further understand the topics covered in this 
 - My peers from 42 Marseille
 
 
-### :test_tube: Testing and Memory Leak Check
+## :test_tube: Testing and Memory Leak Check
+
+I used the gnlTester to perform my checks on multiple horizons.
 
 <ins>[gnlTester](https://github.com/Tripouille/gnlTester.git)</ins> by *Tripouille*
