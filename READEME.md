@@ -96,7 +96,7 @@ int	main(void)
 
 Compile with:
 ```
-get_next_line.c get_next_line_utils.c main.c -Wextra -Werror -D BUFFER_SIZE=42
+cc get_next_line.c get_next_line_utils.c main.c -Wextra -Werror -D BUFFER_SIZE=42
 ```
 The value of `BUFFER_SIZE` can be modified.
 
