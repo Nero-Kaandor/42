@@ -58,7 +58,7 @@ an hour's sleep in order to hear what he had to say.
 
 > ### :wrench: Create a main.c and compile
 
-<code style="color : red">Insert<code> the path of your **.txt** file in the `main.c` as below :
+Insert the path of your **.txt** file in the `main.c` as below :
 
 ```
 #include "get_next_line.h"
