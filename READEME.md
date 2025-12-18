@@ -9,24 +9,22 @@ The Get Next Line project implements a function that reads one line at a time fr
 
 > ### Code operation
 
-`get_next_line(int fd)`
-
-**<ins>Purpose</ins>**: Read and return a line from a file pointed to by the file descriptor fd.
-
-**<ins>Return</ins>**: Returns a line read, or NULL if an error occurs or if the end of the file is reached
-
-`fill_buffer_line(int fd, char *left, char *buffer)`
-
-**<ins>Purpose</ins>**: Fill the buffer with data read from the file and concatenate it to the variable left, which stores what has been read but not yet returned.
-
-**<ins>Return</ins>**: Returns the new string left containing the data read until a line is found or the end of the file is reached.
+|  `get_next_line(int fd)`  |
+:---
+|  **<ins>Purpose</ins>**: Read and return a line from a file pointed to by the file descriptor fd.
+|  **<ins>Return</ins>**: Returns a line read, or NULL if an error occurs or if the end of the file is reached
 
 
-`define_line(char *line_buffer)`
+|  `fill_buffer_line(int fd, char *left, char *buffer)`  |
+:---
+|  **<ins>Purpose</ins>**: Fill the buffer with data read from the file and concatenate it to the variable left, which stores what has been read but not yet returned.
+|  **<ins>Return</ins>**: Returns the new string left containing the data read until a line is found or the end of the file is reached.  |
 
-**<ins>Purpose</ins>**: Process the read string to separate the line before the newline character (\n) and the remaining part for the next read.
 
-**<ins>Return</ins>**: Returns the string remaining after the read line or NULL if the line does not contain \n.
+|   `define_line(char *line_buffer)`   |
+:---
+|**<ins>Purpose</ins>**: Process the read string to separate the line before the newline character (\n) and the remaining part for the next read.|
+|**<ins>Return</ins>**: Returns the string remaining after the read line or NULL if the line does not contain \n.|
 
 ## :eyeglasses: Instructions
 
